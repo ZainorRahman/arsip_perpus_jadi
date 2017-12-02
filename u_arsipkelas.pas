@@ -16,6 +16,7 @@ type
     e2: TEdit;
     btn1: TButton;
     btn2: TButton;
+    procedure btn1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -27,6 +28,14 @@ var
 
 implementation
 
+uses
+  u_menu, Unit2;
+
 {$R *.dfm}
+
+procedure Tarsipkelas.btn1Click(Sender: TObject);
+begin
+form2.showmodal;
+end;
 
 end.

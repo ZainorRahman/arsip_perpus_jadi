@@ -66,6 +66,7 @@ object arsipkelas: Tarsipkelas
       Height = 25
       Caption = 'pindai'
       TabOrder = 3
+      OnClick = btn1Click
     end
     object btn2: TButton
       Left = 160
